@@ -1,0 +1,1 @@
+query=""" select event_type, count(*) from logs group by event_type having count(*)>2"""
